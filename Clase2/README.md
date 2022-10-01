@@ -64,3 +64,10 @@ Para que versione la carpeta tengo que crear un archivo *.gitkeep*
 * git branch -M main
 * git remote add origin https://github.com/MSF89/ curso-git-colaborativo.git
 * git push -u origin master
+
+# Luedo de los pasos basicos
+
+1. git status
+2. git add .
+3. git commit -m "descripcion commit"
+4. git push
