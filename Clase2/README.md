@@ -56,7 +56,7 @@ Para que versione la carpeta tengo que crear un archivo *.gitkeep*
 * El de su cuenta git, nombre de usuario: MSF89/MSF89
 * El que permite crear un hosting (Configura el Github pages):MSF89/MSF89.github.io
 
-# PASOS BASICOS
+# PASOS BASICOS INICIALES
 
 git init
 git add README.md || git add .
