@@ -55,3 +55,12 @@ Para que versione la carpeta tengo que crear un archivo *.gitkeep*
 2 nombres magicos
 * El de su cuenta git, nombre de usuario: MSF89/MSF89
 * El que permite crear un hosting (Configura el Github pages):MSF89/MSF89.github.io
+
+# PASOS BASICOS
+
+git init
+git add README.md || git add .
+git commit -m "descripcion commit"
+git branch -M main
+git remote add origin https://github.com/MSF89/curso-git-colaborativo.git
+git push -u origin master
