@@ -37,7 +37,9 @@ git add .
 
 ## Para hacer un commit
 
-git commit : te abre nano y vos le pones la descripcion al commit.
+git commit : te abre nano y vos le pones la descripcion al commit. con Ctrl+0 guarda y Ctrl+x sale
+
+
 
 **Importante**: Git no versiona carpetas vacias
 Para que versione la carpeta tengo que crear un archivo *.gitkeep*
