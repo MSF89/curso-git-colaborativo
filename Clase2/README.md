@@ -30,7 +30,14 @@ git status
 
 # Que paso del working directory al stagin area
 
-git add
+git add README.md
+## todos los archivos
+
+git add .
+
+## Para hacer un commit
+
+git commit : te abre nano y vos le pones la descripcion al commit.
 
 **Importante**: Git no versiona carpetas vacias
 Para que versione la carpeta tengo que crear un archivo *.gitkeep*
