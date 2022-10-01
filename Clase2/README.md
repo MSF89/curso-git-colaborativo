@@ -58,9 +58,9 @@ Para que versione la carpeta tengo que crear un archivo *.gitkeep*
 
 # PASOS BASICOS INICIALES
 
-git init
-git add README.md || git add .
-git commit -m "descripcion commit"
-git branch -M main
-git remote add origin https://github.com/MSF89/curso-git-colaborativo.git
-git push -u origin master
+* git init
+* git add README.md || git add .
+* git commit -m "descripcion commit"
+* git branch -M main
+* git remote add origin https://github.com/MSF89/ curso-git-colaborativo.git
+* git push -u origin master
