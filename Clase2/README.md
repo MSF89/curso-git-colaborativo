@@ -62,7 +62,7 @@ Para que versione la carpeta tengo que crear un archivo *.gitkeep*
 * git add README.md || git add .
 * git commit -m "descripcion commit"
 * git branch -M main
-* git remote add origin https://github.com/MSF89/ curso-git-colaborativo.git
+* git remote add origin https://github.com/MSF89/curso-git-colaborativo.git
 * git push -u origin master
 
 # Luedo de los pasos basicos
