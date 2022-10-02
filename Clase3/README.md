@@ -81,5 +81,17 @@ git branch dev
 ```bash
 git switch dev
 ```
+```bash
+git chekout <rama>
+```
+
+## Creo una rama y me cambio a ella
+```bash
+git checkout -b nuevaRama
+```
+
+## Borrar una rama
+```bash
+
 
 
