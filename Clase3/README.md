@@ -24,3 +24,10 @@ si me equivoco en la ultima descripcion del commit puedo corregirlo con git amen
 ```bash
 git commit --amend -m"nuevo comentario corregido"
 ```
+
+# Add y commit (los dos juntos)
+*tengo que tener en el staging area*
+
+```bash
+git commit -am "comentario commit"
+```
