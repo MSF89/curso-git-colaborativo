@@ -32,3 +32,12 @@ $ git config --get-regexp alias
 ```bash
 $ git help <log>/<status>/<loquesea>
 ```
+# Para moverme entre los commit
+** Importante** No es recomendablesalvo casos muy especificos
+```bash
+git checkout <hashDeComit>
+```
+### Ejemplo
+```bash
+git checkout 1e6b39a
+```
