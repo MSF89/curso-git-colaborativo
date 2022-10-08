@@ -81,3 +81,34 @@ git stash list
 ```bash
 git stash drop <id del stash>
 ```
+
+### Creo una rama a partir del contenido del Stash
+El Stash tiene el contenido del working directory
+```bash
+git stash branch <nombreRama>
+```
+### Aplicar ultimo Stash o el que yo defina
+Nota: Sin borrar el Stash
+```bash
+git stash apply // Aplica ultimo Stash
+```
+```bash
+git stash apply stash@{2} // Aplica el stash seleccionado
+```
+
+# Actualizar Fork
+Hacen un Fork y al pasar el tiempo se encuentra desactualizado
+
+### Agrego el remoto a mi repo local
+```bash
+git remote add upsream <remoto del proyecto original>
+```
+```bash
+git pull upstream <rama>
+```
+## Clonar un proyecto
+```bash
+git clone git@github.com:mlapeducacionit/Clase05.git .
+```
+
+
