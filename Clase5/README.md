@@ -59,3 +59,25 @@ Puede crearse un tablero Kanban (Metodologias agiles creando tareas vinculadas a
  git push origin <tag>
  ```
 ej: git push origin v1.0.0
+
+# Git Stash
+Guardar en un espacio temporal los cambios del working directory
+Cuando realizo un Stash, el proyecto vuelve al ultimo commit.
+
+### Creo el Stash
+```bash
+git stash
+```
+### Recupero el Stash
+```bash
+git stash pop
+```
+
+### listar Stash guardados
+```bash
+git stash list
+```
+### Borrar Stash guardado (no se va a usar)
+```bash
+git stash drop <id del stash>
+```
