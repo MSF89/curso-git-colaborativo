@@ -107,6 +107,11 @@ git remote add upsream <remoto del proyecto original>
 git pull upstream <rama>
 ```
 ## Clonar un proyecto
+```bash 
+git clone <direccion-del-repositorio> .
+git clone <direccion-del-repositorio> <carpeta>
+```
+ej:
 ```bash
 git clone git@github.com:mlapeducacionit/Clase05.git .
 ```
