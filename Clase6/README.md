@@ -10,3 +10,7 @@ git rm <archivo>
 ```
 
 # Checkout otros usos
+```bash
+git checkout -- .
+```
+# Recupero archivos de la historia.
