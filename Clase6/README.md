@@ -42,6 +42,29 @@ Un log de las referencias de todo lo que ha sucedido en orden cronologico
 git reflog
 ```
 
+# ReBase
+* Ordenar commits
+* Corregir mensajes de los commits
+* Unir commits
+* Separar commits
+Siempre tengo que estar en la rama en la que quiero integrar los cambios
+
+Para traer los cambios:
+```bash
+git rebase master
+```
+Para abortar en un conflicto
+```bash
+git rebase --abort
+```
+Para continuar con el rebase para finalizar
+```bash
+git rebase --continue
+```
+## Rebase Interactivo
+```bash
+git rebase -i
+```
 # Crear un submodulo
 
 ```bash
