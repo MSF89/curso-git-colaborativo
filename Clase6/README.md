@@ -31,3 +31,10 @@ Es por defecto. si no coloco --mixed es el que hace por defecto
 ```bash
 git reser --mixed <hash>
 ```
+
+## Hard
+Destructivo: Peligroso, mucho cuidado
+```git reset --hard <hash>
+```
+# Reflog 
+Un log de las referencias de todo lo que ha sucedido en orden cronologico
