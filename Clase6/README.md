@@ -14,3 +14,20 @@ git rm <archivo>
 git checkout -- .
 ```
 # Recupero archivos de la historia.
+git checkout <hash> <nombre-archivo>
+
+# Reset
+
+
+## Soft
+Saca los archivos del hash indicado y todo los subsiguientes y los deja en el working directory
+
+```bash
+git reset --soft <hash>
+```
+
+## Mixed
+Es por defecto. si no coloco --mixed es el que hace por defecto
+```bash
+git reser --mixed <hash>
+```
