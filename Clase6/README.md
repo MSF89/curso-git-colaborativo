@@ -41,3 +41,9 @@ Un log de las referencias de todo lo que ha sucedido en orden cronologico
 ```bash
 git reflog
 ```
+
+# Crear un submodulo
+
+```bash
+git clone https:
+```
