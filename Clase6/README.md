@@ -68,5 +68,20 @@ git rebase -i
 # Crear un submodulo
 
 ```bash
-git clone https:
+git submodule init
+```
+
+# Agrego al submodulo
+
+```bash
+git submodule add <url> <directorio>
+```
+```bash
+git submodule add https://github.com/jquery/jquery jq 
+```
+
+# Actualizar modulo
+
+```bash
+git submodule update
 ```
