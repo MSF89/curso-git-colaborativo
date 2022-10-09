@@ -38,3 +38,6 @@ Destructivo: Peligroso, mucho cuidado
 ```
 # Reflog 
 Un log de las referencias de todo lo que ha sucedido en orden cronologico
+```bash
+git reflog
+```
